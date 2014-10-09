@@ -1,3 +1,15 @@
+/*
+ *  Theme Name:   Twenty Fourteen Child
+ *  Description:  Enfold child theme for fluxflat.com
+ *  Author:       Carlos Baraza
+ *  Author URI:   http://carlosbaraza.com
+ *  Template:     enfold
+ *  Version:      1.0.0
+ **/
+
+
+@import url("../enfold/style.css");
+
 /**
  *
  * CSS modifications of the theme.
