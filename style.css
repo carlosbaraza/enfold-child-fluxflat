@@ -1,0 +1,40 @@
+/**
+ *
+ * CSS modifications of the theme.
+ *
+ **/
+
+/* Make text inputs to witdth the total of the form */
+.wpcf7-form-control.wpcf7-text { width: 100% !important; }
+
+/* Selected an hover menu items to white background */
+.header_color .main_menu ul:first-child > li a:hover, .header_color .main_menu ul:first-child > li.current-menu-item > a, .header_color .main_menu ul:first-child > li.current_page_item > a, .header_color .main_menu ul:first-child > li a:hover {
+  background-color: white;
+}
+
+/* All items from menu to transparent white background */
+.header_color .main_menu ul:first-child > li > a {
+  background-color: rgba(255,255,255,0.8);
+}
+
+/* Background of search button to red and search icon to white */
+.html_main_nav_header #top .main_menu .menu>li:last-child>a {
+  padding-right: 13px;
+}
+
+#top #menu-item-search:hover>a {
+  background-color: #c3512f;
+}
+#top #menu-item-search:hover>a:before {
+  color: #FFFFFF;
+}
+
+/* If the screen is small, do not show the background */
+@media only screen and (max-width: 767px) {
+  .header_color .header_bg {
+    background: white;
+  }
+  .header_color {
+    background: white;
+  }
+}
